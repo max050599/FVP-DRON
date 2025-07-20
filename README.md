@@ -1,4 +1,4 @@
-# Drone FPV Safety System
+# Drone FPV
 
 Este proyecto tiene como objetivo mejorar la seguridad y la estabilidad de los drones FPV (First Person View) mediante la implementación de diversas técnicas y algoritmos. A continuación se describen las características principales del sistema.
 
