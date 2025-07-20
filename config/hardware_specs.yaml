@@ -1,0 +1,56 @@
+frame: 
+  type: "Chasis"
+  material: "Fibra de carbono"
+  weight: "500g"
+
+motors: 
+  type: "Brushless"
+  kv_rating: "2300"
+  max_thrust: "1.5kg"
+
+escs: 
+  type: "Electronic Speed Controller"
+  rating: "30A"
+  protocol: "PWM"
+
+flight_controller: 
+  type: "Controladora de Vuelo"
+  model: "F4"
+  features: 
+    - "GPS"
+    - "Barómetro"
+    - "Sensor de giro"
+
+propellers: 
+  size: "5x4.5"
+  material: "Nylon"
+
+battery: 
+  type: "LiPo"
+  capacity: "1300mAh"
+  voltage: "4S"
+
+fpv_camera: 
+  type: "Cámara FPV"
+  resolution: "720p"
+  field_of_view: "120°"
+
+vtx: 
+  type: "Transmisor de Video"
+  frequency: "5.8GHz"
+  power: "200mW"
+
+receiver: 
+  type: "Receptor de Radio"
+  protocol: "CRSF"
+
+fpv_goggles: 
+  type: "Gafas FPV"
+  resolution: "800x480"
+  features: 
+    - "DVR"
+    - "Diversity" 
+
+transmitter: 
+  type: "Radio/Transmisor"
+  channels: "8"
